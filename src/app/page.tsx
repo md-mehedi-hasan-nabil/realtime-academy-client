@@ -1,7 +1,9 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <>
-      <header className="bg-white shadow">
+      <nav className="bg-white shadow">
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
           <a href="#" className="text-xl font-bold text-blue-600">LearnTogether</a>
           <nav className="space-x-6">
@@ -9,10 +11,10 @@ export default function Home() {
             <a href="#pricing" className="text-gray-700 hover:text-blue-600">Pricing</a>
             <a href="#about" className="text-gray-700 hover:text-blue-600">About Us</a>
             <a href="#contact" className="text-gray-700 hover:text-blue-600">Contact</a>
-            <a href="#" className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Sign Up</a>
+            <Link href="/signin" className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Sign In</Link>
           </nav>
         </div>
-      </header>
+      </nav>
 
       <section className="bg-blue-600 text-white py-20 text-center">
         <div className="container mx-auto px-6">
