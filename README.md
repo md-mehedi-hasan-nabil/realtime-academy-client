@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# **Realtime Academy**  
+_A Real-Time Collaboration and E-Learning Platform_
 
-## Getting Started
+## **Description**  
+LearnTogether is a modern platform that combines real-time collaboration tools with e-learning features to create an interactive and engaging environment for students, teachers, and administrators. It supports live virtual classrooms, collaborative note-taking, quizzes, shared whiteboards, and progress tracking to empower seamless learning and teamwork.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## **Key Features**  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### **E-Learning Features**  
+- **Course Management:** Create, edit, and organize courses with videos, assignments, and quizzes.  
+- **Progress Tracking:** Dashboards for students to monitor course completion, grades, and milestones.  
+- **Interactive Quizzes:** Evaluate students with automatically graded quizzes.  
+- **Video Playlists:** Organized lessons for smooth video streaming.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### **Real-Time Collaboration Features**  
+- **Live Chat:** Engage in real-time group discussions or private messaging.  
+- **Virtual Classrooms:** Audio/video calls with screen sharing for teaching and teamwork.  
+- **Shared Whiteboard:** Collaborate visually with drawing and annotations.  
+- **Collaborative Note-Taking:** Edit documents with others in real time.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### **Admin Tools**  
+- Manage users, courses, and roles.  
+- Monitor platform usage and analytics.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## **Tech Stack**  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### **Frontend:**  
+- React / Next.js  
+- Tailwind CSS  
+- WebRTC  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### **Backend:**  
+- Node.js  
+- Express.js  
+- MongoDB  
+- Socket.io  
 
-## Deploy on Vercel
+### **Real-Time and AI:**  
+- WebSockets for live collaboration.  
+- AI integration for content recommendations and analytics (optional).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## **Installation**  
+
+### **Frontend**  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/md-mehedi-hasan-nabil/realtime-academy-client.git
+
+   cd realtime-academy-client
+
+2. Install dependencies:  
+   ```bash
+   npm install
+
+3. Start the development server:
+   ```bash
+   npm run dev
